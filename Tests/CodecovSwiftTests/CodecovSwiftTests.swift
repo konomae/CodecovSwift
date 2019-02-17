@@ -7,6 +7,7 @@ final class CodecovSwiftTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
         XCTAssertEqual(CodecovSwift().text, "Hello, World!")
+        XCTAssertEqual(CodecovSwift().hello(), "Hello, World!")
     }
 
     static var allTests = [
